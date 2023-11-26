@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "acornthin";
+  src: url("../dist/font/acornbold.otf");
+}
+@font-face {
+  font-family: "acornsemi";
+  src: url("../dist/font/acornsemi.otf");
+}
+@font-face {
+  font-family: "acornbold";
+  src: url("../dist/font/acornthin.otf");
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-secondary;
+}
+
+.active {
+  @apply scale-x-100;
+}
+.activate {
+  @apply scale-100 origin-bottom-right;
+}
+.unactive {
+  @apply scale-0 origin-bottom-right;
+}
+
+.navbar-fixed {
+  @apply fixed z-[100] bg-white bg-opacity-60 backdrop-blur-sm dark:bg-dark dark:bg-opacity-60 dark:backdrop-blur-sm;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply -scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.title-section {
+  @apply text-4xl text-dark font-bold mb-5 text-center font-acornsemi dark:text-white;
+}
+
+.rectangle {
+  @apply w-10 h-10 absolute bg-primary -ml-9 -mt-3 -z-20;
+}
