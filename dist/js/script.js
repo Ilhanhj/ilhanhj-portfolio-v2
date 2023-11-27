@@ -127,19 +127,19 @@ function userAnswerHello() {
   answerLeft.innerHTML = `  <div
   class="container m-2 lg:m-2 w-20 h-14 bg-gray-50 rounded-xl flex justify-center items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="500"  data-aos-anchor="#chatbot" data-aos-delay="500">
-  <h1 class="text-primary">Hi ! 👋🏻 </h1>
+  <h1 class="text-primaryOld">Hi ! 👋🏻 </h1>
 </div>
 <div class="container m-2 lg:m-2 w-2/5 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1000"  data-aos-anchor="#chatbot" data-aos-delay="1000">
-  <h1 class="text-primary">Thanks for saying hi !</h1>
+  <h1 class="text-primaryOld">Thanks for saying hi !</h1>
 </div>  
 <div class="container m-2 lg:m-2 w-2/5 lg:w-1/2 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1500"  data-aos-anchor="#chatbot" data-aos-delay="1500">  
-  <h1 class="text-primary"> I hope you enjoy browsing my work</h1>
+  <h1 class="text-primaryOld"> I hope you enjoy browsing my work</h1>
 </div>
 <div class="container m-2 lg:m-2 w-2/5 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="2000"  data-aos-anchor="#chatbot" data-aos-delay="2000">
-  <h1 class="text-primary mr-1"> Can i help you with anything else ?
+  <h1 class="text-primaryOld mr-1"> Can i help you with anything else ?
   </h1>
 </div>
 
@@ -199,15 +199,15 @@ function userAnswerHire() {
   answerLeft.innerHTML = `  
 <div class="container m-2 lg:m-2 w-2/5 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="500"  data-aos-anchor="#chatbot" data-aos-delay="500">
-  <h1 class="text-primary">That's awesome !</h1>
+  <h1 class="text-primaryOld">That's awesome !</h1>
 </div>
 <div class="container m-2 lg:m-2 w-1/2 lg:w-1/2 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1000"  data-aos-anchor="#chatbot" data-aos-delay="1000">
-  <h1 class="text-primary"> Let's elevate your digital experience into a masterpiece.</h1>
+  <h1 class="text-primaryOld"> Let's elevate your digital experience into a masterpiece.</h1>
 </div>
 <div class="container m-2 lg:m-2 w-1/2 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1500"  data-aos-anchor="#chatbot" data-aos-delay="1500">
-  <h1 class="text-primary mr-1"> Drop me a message, let's chat further !
+  <h1 class="text-primaryOld mr-1"> Drop me a message, let's chat further !
   </h1>
 </div>
 
@@ -254,21 +254,21 @@ function userAnswerConsult() {
   answerLeft.classList.add("justify-start");
   answerLeft.innerHTML = `        <div class="container m-2 lg:m-2 w-2/5 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="500"  data-aos-anchor="#chatbot" data-aos-delay="500">
-  <h1 class="text-primary">Thanks for reaching out !</h1>
+  <h1 class="text-primaryOld">Thanks for reaching out !</h1>
 </div>
 <div class="container m-2 lg:m-2 w-1/2 lg:w-1/2 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1000"  data-aos-anchor="#chatbot" data-aos-delay="1000">
-  <h1 class="text-primary"> Yes, I provide consultation sessions. </h1>
+  <h1 class="text-primaryOld"> Yes, I provide consultation sessions. </h1>
 </div>
 <div class="container m-2 lg:m-2 w-1/2 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="1500"  data-aos-anchor="#chatbot" data-aos-delay="1500">
-  <h1 class="text-primary mr-1"> to better understand your project
+  <h1 class="text-primaryOld mr-1"> to better understand your project
       requirements.
   </h1>
 </div>
 <div class="container m-2 lg:m-2 w-2/5 bg-gray-50 rounded-xl flex items-center p-3 dark:bg-darkSec" data-aos="fade-up"
   data-aos-duration="2000"  data-aos-anchor="#chatbot" data-aos-delay="2000">
-  <h1 class="text-primary mr-1">and ensure we align our goals.
+  <h1 class="text-primaryOld mr-1">and ensure we align our goals.
   </h1>
 </div>
 
