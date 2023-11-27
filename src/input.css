@@ -48,5 +48,5 @@
 }
 
 .rectangle {
-  @apply w-10 h-10 absolute bg-primary -ml-9 -mt-3 -z-20;
+  @apply w-10 h-10 absolute bg-primary -ml-9 -mt-3 -z-20 dark:bg-secondary;
 }
