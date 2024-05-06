@@ -1234,6 +1234,11 @@ video {
   color: rgb(247 223 30 / var(--tw-text-opacity));
 }
 
+.text-\[\#FF2D20\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 45 32 / var(--tw-text-opacity));
+}
+
 .text-dark {
   --tw-text-opacity: 1;
   color: rgb(13 13 13 / var(--tw-text-opacity));
@@ -1262,15 +1267,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#\#FF2D20\] {
-  color: ##FF2D20;
-}
-
-.text-\[\#FF2D20\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 45 32 / var(--tw-text-opacity));
 }
 
 .shadow-inner {
