@@ -2024,6 +2024,10 @@ video {
     margin-top: 0.5rem;
   }
 
+  .lg\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
