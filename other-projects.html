@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" class="font-poppins scroll-smooth selection:bg-secondary selection:text-primary">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilhan HJ | Front-end Developer</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="dist/images/logo/favicon.ico">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preload" as="font" href="https://fonts.googleapis.com">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,100;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body
+    class="scrollbar scrollbar-thumb-primary scrollbar-thumb-rounded-full scrollbar-w-[6px] dark:bg-dark overflow-x-hidden">
+    <!-- The Navigation Bar Section START -->
+    <header class="absolute top-0 left-0 z-30 flex items-center w-full bg-transparent" id="navnav">
+        <div class="container mx-auto md:mx-auto md:px-4 lg:mx-auto lg:m-3">
+            <div class="relative flex items-center justify-between">
+                <div class="z-40 block px-4">
+                    <a href="/index.html"><img src="dist/images/logo/MINIMALIST-LOGO-1-1.png" fetchpriority="high"
+                            alt="" class="m-3" width="60" height="60"></a>
+                </div>
+                <nav id="nav-menu"
+                    class="absolute top-0 right-0 w-full h-screen mt-0 text-2xl font-medium text-center transition duration-300 origin-right scale-x-0 bg-white lg:static lg:block lg:text-base lg:mt-0 lg:h-0 lg:scale-x-100">
+                    <ul
+                        class="flex flex-col gap-6 pt-32 lg:flex-row lg:justify-center lg:pt-0 dark:bg-dark lg:dark:bg-transparent">
+                        <li class="flex justify-center group lg:block"><a href="/index.html"
+                                class="group-hover:text-secondary mb-6 block after:block after:content-[''] after:border-b-2 after:border-b-secondary after:mt-1 after:rounded-full after:scale-x-0 after:hover:scale-x-100 after:w-full after:justify-center after:transition after:ease-in-out after:duration-300 after:origin-center dark:text-white">Home</a>
+                        </li>
+                        <li class="flex justify-center group lg:block"><a href="/index.html#about"
+                                class="group-hover:text-secondary mb-6 block after:block after:content-[''] after:border-b-2 after:border-b-secondary after:mt-1 after:rounded-full after:scale-x-0 after:hover:scale-x-100 after:w-full after:justify-center after:transition after:ease-in-out after:duration-300 after:origin-center dark:text-white">About</a>
+                        </li>
+                        <li class="flex justify-center group lg:block"><a href="/index.html#work"
+                                class="group-hover:text-secondary mb-6 block after:block after:content-[''] after:border-b-2 after:border-b-secondary after:mt-1 after:rounded-full after:scale-x-0 after:hover:scale-x-100 after:w-full after:justify-center after:transition after:ease-in-out after:duration-300 after:origin-center dark:text-white">Work</a>
+                        </li>
+                        <li class="flex justify-center group lg:block"><a href="/index.html#whatido"
+                                class="group-hover:text-secondary mb-6 block after:block after:content-[''] after:border-b-2 after:border-b-secondary after:mt-1 after:rounded-full after:scale-x-0 after:hover:scale-x-100 after:w-full after:justify-center after:transition after:ease-in-out after:duration-300 after:origin-center dark:text-white">What
+                                I
+                                do</a></li>
+                        <li class="flex justify-center group lg:block"><a href="#contact"
+                                class="group-hover:text-secondary mb-6 block after:block after:content-[''] after:border-b-2 after:border-b-secondary after:mt-1 after:rounded-full after:scale-x-0 after:hover:scale-x-100 after:w-full after:justify-center after:transition after:ease-in-out after:duration-300 after:origin-center dark:text-white">Contact</a>
+                        </li>
+                        <li class="mb-24">
+                            <label class="relative inline-flex items-center cursor-pointer lg:hidden">
+                                <input class="sr-only peer" value="" type="checkbox" id="darkmode" />
+                                <div
+                                    class="w-12 h-6 rounded-full ring-0 peer duration-500 outline-none bg-gray-200 overflow-hidden before:flex before:items-center before:justify-center after:flex after:items-center after:justify-center before:content-['☀️'] before:absolute before:h-10 before:w-10 before:top-1/2 before:bg-white before:rounded-full before:left-1 before:-translate-y-1/2 before:transition-all before:duration-700 peer-checked:before:opacity-0 peer-checked:before:rotate-90 peer-checked:before:-translate-y-full shadow-lg shadow-gray-400 peer-checked:shadow-lg peer-checked:shadow-gray-700 peer-checked:bg-[#383838] after:content-['🌑'] after:absolute after:bg-[#1d1d1d] after:rounded-full after:top-[4px] after:right-1 after:translate-y-full after:w-10 after:h-10 after:opacity-0 after:transition-all after:duration-700 peer-checked:after:opacity-100 peer-checked:after:rotate-180 peer-checked:after:translate-y-0">
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="flex mr-16 list-none lg:mr-0">
+                    <div class="hidden lg:block">
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input class="sr-only peer" value="" type="checkbox" id="darkmode" />
+                            <div
+                                class="w-12 h-6 rounded-full ring-0 peer duration-500 outline-none bg-gray-200 overflow-hidden before:flex before:items-center before:justify-center after:flex after:items-center after:justify-center before:content-['☀️'] before:absolute before:h-10 before:w-10 before:top-1/2 before:bg-white before:rounded-full before:left-1 before:-translate-y-1/2 before:transition-all before:duration-700 peer-checked:before:opacity-0 peer-checked:before:rotate-90 peer-checked:before:-translate-y-full shadow-lg shadow-gray-400 peer-checked:shadow-lg peer-checked:shadow-gray-700 peer-checked:bg-[#383838] after:content-['🌑'] after:absolute after:bg-[#1d1d1d] after:rounded-full after:top-[4px] after:right-1 after:translate-y-full after:w-10 after:h-10 after:opacity-0 after:transition-all after:duration-700 peer-checked:after:opacity-100 peer-checked:after:rotate-180 peer-checked:after:translate-y-0">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="flex items-center px-4 lg:hidden">
+                    <button id="hamburger" name="hamburger" class="absolute block right-4">
+                        <span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+                        <span class="transition duration-300 ease-in-out hamburger-line"></span>
+                        <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- The Navigation Bar Section END -->
+
+    <!-- The Bot Section START -->
+    <div id="chatbot"
+        class="w-full h-screen bg-gray-950 bg-opacity-10 backdrop-blur-lg fixed bottom-0 right-0 z-[400] scale-0 origin-top transition duration-300 overflow-y-auto lg:w-1/3 lg:h-3/4 lg:overflow-y-auto scrollbar   scrollbar-thumb-secondary scrollbar-track-primary ">
+        <div class="sticky top-0 flex w-full h-20 bg-primary z-100 ">
+            <div class="container flex items-center justify-between px-4">
+                <div class="flex text-white">
+                    <img src="dist/images/chatbot.jpg" width="100" height="100" fetchpriority="low" alt=""
+                        class="container w-12 h-12 bg-white rounded-full">
+                    <div class="ml-4 text-white">
+                        <h1 class="font-semibold">Ilhan Bot</h1>
+                        <h1 class="text-xs ">Ask me a question</h1>
+                    </div>
+                </div>
+                <div class="text-white flex justify-end cursor-pointer p-3 rounded-lg hover:bg-[#dbeb36]" id="close">
+                    <i data-feather="x"></i>
+                </div>
+            </div>
+        </div>
+        <div id="chat-area" class="w-full">
+            <div
+                class="container flex items-center justify-center w-20 p-3 m-2 lg:m-2 h-14 bg-gray-50 rounded-xl dark:bg-darkSec">
+                <h1 class="text-primaryOld">Hi ! 👋🏻 </h1>
+            </div>
+            <div class="container flex items-center w-3/4 p-3 m-2 lg:m-2 bg-gray-50 rounded-xl dark:bg-darkSec">
+                <h1 class="text-primaryOld">I am Ilhan's Bot, ready to provide professional assistance and information
+                    about
+                    Ilhan's work. </h1>
+            </div>
+            <div
+                class="container flex items-center w-2/5 p-3 m-2 lg:m-2 lg:w-1/2 bg-gray-50 rounded-xl dark:bg-darkSec">
+                <h1 class="text-primaryOld"> How can i help you today ?</h1>
+            </div>
+            <div class="container flex items-center w-2/5 p-3 m-2 lg:m-2 bg-gray-50 rounded-xl dark:bg-darkSec">
+                <h1 class="mr-1 text-primaryOld">And remember to<span class=" text-secondary"> scroll
+                        after you
+                        click</span>
+                </h1>
+            </div>
+            <div id="question">
+                <div id="chat-hello"
+                    class="container flex items-center w-2/5 p-3 m-2 bg-transparent border-2 rounded-full cursor-pointer lg:m-2 border-secondary">
+                    <h1 class="text-secondary">Just saying Hello !</h1>
+                </div>
+                <div id="chat-consult"
+                    class="container flex items-center w-3/5 p-3 m-2 bg-transparent border-2 rounded-full cursor-pointer lg:m-2 border-secondary">
+                    <h1 class="text-secondary">Interested in Consultation</h1>
+                </div>
+                <div id="chat-hire"
+                    class="container flex items-center w-2/5 p-3 m-2 bg-transparent border-2 rounded-full cursor-pointer lg:m-2 border-secondary">
+                    <h1 class="text-secondary">I'd like to hire you !</h1>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- ! Answer -->
+
+    </div>
+    <!-- Button -->
+    <div id="chatbot-button"
+        class="w-14 h-14 rounded-tl-lg shadow-inner rounded-tr-lg bg-secondary text-dark flex justify-center scale-100 fixed bottom-0 right-4 cursor-pointer hover:bg-[#9354ffc7] lg:w-32 lg:h-14">
+        <div class="flex items-center gap-2 ">
+            <i data-feather="message-circle" class="block m-auto text-white" width="30"></i>
+            <h1 class="hidden text-white text-md lg:block">HanBot</h1>
+        </div>
+    </div>
+    <!-- The Bot Section END -->
+
+
+    <!-- The Other Projects Section START -->
+    <section id="work" class="pt-40">
+        <h1 class="title-section" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500">Other Projects <span
+                class="rectangle"></span>
+        </h1>
+        <p class="px-4 mb-20 text-center text-md lg:text-sm text-neutral-400" data-aos="fade-up" data-aos-offset="200"
+            data-aos-duration="1000">Explore a handpicked selection of my work, each designed to be functional and
+            uniquely creative.
+        </p>
+        <div class="w-full h-auto container mx-auto lg:px-0 px-4  lg:flex justify-between gap-4 lg:items-start ">
+            <!-- Projects 1 -->
+            <div class="flex md:mx-auto md:flex w-full md:w-[70%] lg:w-[40%] flex-col flex-wrap lg:p-4 p-5 px-4 lg:px-4 mb-10 lg:mb-10 text-center bg-neutral-50 rounded-xl dark:bg-darkSec"
+                data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
+                <div class="w-full p-0 mt-0 lg:p-4 lg:w-full lg:mt-0 md:mt-0">
+                    <img src="dist/images/projects/mignons.webp" width="700" height="700" fetchpriority="low" alt=""
+                        class=" rounded-xl">
+                </div>
+
+                <div class="lg:flex lg:flex-col lg:p-4">
+                    <div class="flex gap-2 justify-center md:justify-center lg:justify-normal">
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-primary font-acornsemi">
+                            Mignons
+                        </h1>
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-secondary font-acornsemi">
+                            Streetwear</h1>
+                    </div>
+                    <div class="w-full rounded-full my-2 h-[2px] bg-secondary"></div>
+                    <div class="justify-center lg:flex lg:w-full lg:justify-between">
+                        <div class="flex justify-center gap-8 lg:justify-start lg:w-full md:w-full lg:mt-5">
+                            <svg role="img" width="30" height="30" class="fill-current text-[#61DAFB]"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>React</title>
+                                <path
+                                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#06B6D4]"
+                                fetchpriority="low" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#764ABC]"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Redux</title>
+                                <path
+                                    d="M16.634 16.504c.87-.075 1.543-.84 1.5-1.754-.047-.914-.796-1.648-1.709-1.648h-.061a1.71 1.71 0 00-1.648 1.769c.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.005 4.795-1.603.838-3.296 1.154-4.944.93-1.378-.195-2.456-.81-3.116-1.799-.988-1.499-1.078-3.116-.255-4.734.6-1.17 1.499-2.023 2.099-2.443a9.96 9.96 0 01-.42-1.543C-.868 14.408-.416 18.752.932 20.805c1.004 1.498 3.057 2.456 5.304 2.456.6 0 1.23-.044 1.843-.194 3.897-.749 6.848-3.086 8.541-6.532zm5.348-3.746c-2.32-2.728-5.738-4.226-9.634-4.226h-.51c-.253-.554-.837-.899-1.498-.899h-.045c-.943 0-1.678.81-1.647 1.753.03.898.794 1.648 1.708 1.648h.074a1.69 1.69 0 001.499-1.049h.555c2.309 0 4.495.674 6.488 1.992 1.527 1.005 2.622 2.323 3.237 3.897.538 1.288.509 2.547-.045 3.597-.855 1.647-2.294 2.517-4.196 2.517-1.199 0-2.367-.375-2.967-.644-.36.298-.96.793-1.394 1.093 1.318.598 2.652.943 3.94.943 2.922 0 5.094-1.647 5.919-3.236.898-1.798.824-4.824-1.47-7.416zM6.49 17.042c.03.899.793 1.648 1.708 1.648h.06a1.688 1.688 0 001.648-1.768c0-.9-.779-1.647-1.693-1.647h-.06c-.06 0-.15 0-.226.029-1.243-2.098-1.768-4.347-1.572-6.772.12-1.828.72-3.417 1.797-4.735.9-1.124 2.593-1.68 3.747-1.708 3.236-.061 4.585 3.971 4.689 5.574l1.498.45C17.741 3.197 14.686.62 11.764.62 9.02.62 6.49 2.613 5.47 5.535 4.077 9.43 4.991 13.177 6.7 16.174c-.15.195-.24.539-.21.868z" />
+                            </svg>
+                        </div>
+                        <div class="flex justify-center mt-5 lg:mt-5 lg:justify-end lg:w-1/2">
+                            <div
+                                class="flex bg-dark w-2/6 h-10 rounded-full hover:bg-[#000] justify-center cursor-pointer lg:w-44 md:w-36">
+                                <a href="https://mignons-streetwear.vercel.app/"
+                                    class="flex items-center justify-center text-sm text-white lg:text-normal"
+                                    target="_blank">Visit Site
+                                    <i data-feather="arrow-up-right" class="block text-lg text-secondary lg:ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projects 2 -->
+            <div class="flex md:mx-auto md:flex w-full md:w-[70%] lg:w-[40%] flex-col flex-wrap lg:p-4 p-5 px-4 lg:px-4 mb-10 lg:mb-10 text-center bg-neutral-50 rounded-xl dark:bg-darkSec lg:mt-40"
+                data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
+                <div class="w-full p-0 mt-0 lg:p-4 lg:w-full lg:mt-0 md:mt-0">
+                    <img src="dist/images/projects/cheesecool.webp" width="700" height="700" fetchpriority="low" alt=""
+                        class=" rounded-xl">
+                </div>
+
+                <div class="lg:flex lg:flex-col lg:p-4">
+                    <div class="flex gap-2 justify-center md:justify-center lg:justify-normal">
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-primary font-acornsemi">
+                            Cheesecool
+                        </h1>
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-secondary font-acornsemi">
+                            University</h1>
+                    </div>
+                    <div class="w-full rounded-full my-2 h-[2px] bg-secondary"></div>
+                    <div class="justify-center lg:flex lg:w-full lg:justify-between">
+                        <div class="flex justify-center gap-8 lg:justify-start lg:w-full md:w-full lg:mt-5">
+                            <svg role="img" fetchpriority="low" width="30" height="30"
+                                class="fill-current text-[#F7DF1E]" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>JavaScript</title>
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#06B6D4]"
+                                fetchpriority="low" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#FF2D20]"
+                                fetchpriority="low" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Laravel</title>
+                                <path
+                                    d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z" />
+                            </svg>
+                        </div>
+                        <div class="flex justify-center mt-5 lg:mt-5 lg:justify-end lg:w-1/2">
+                            <div
+                                class="flex bg-dark w-2/6 h-10 rounded-full hover:bg-[#000] justify-center cursor-pointer lg:w-44 md:w-36">
+                                <a href="https://github.com/Ilhanhj/cheesecool-project/" fetchpriority="low"
+                                    class="flex items-center justify-center text-sm text-white lg:text-normal"
+                                    target="_blank">Visit Site
+                                    <i data-feather="arrow-up-right" class="block text-lg text-secondary lg:ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="w-full h-auto container mx-auto lg:px-0 px-4  lg:flex justify-between gap-4 lg:items-start ">
+            <!-- Projects 3 -->
+            <div class="flex md:mx-auto md:flex w-full md:w-[70%] lg:w-[40%] flex-col flex-wrap lg:p-4 p-5 px-4 lg:px-4 mb-10 lg:mb-10 text-center bg-neutral-50 rounded-xl dark:bg-darkSec"
+                data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
+                <div class="w-full p-0 mt-0 lg:p-4 lg:w-full lg:mt-0 md:mt-0">
+                    <img src="dist/images/projects/infvckmatika.webp" width="700" height="700" fetchpriority="low"
+                        alt="" class=" rounded-xl">
+                </div>
+
+                <div class="lg:flex lg:flex-col lg:p-4">
+                    <div class="flex gap-2 justify-center md:justify-center lg:justify-normal">
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-primary font-acornsemi">
+                            Infvckmatika
+                        </h1>
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-secondary font-acornsemi">
+                            Class</h1>
+                    </div>
+                    <div class="w-full rounded-full my-2 h-[2px] bg-secondary"></div>
+                    <div class="justify-center lg:flex lg:w-full lg:justify-between">
+                        <div class="flex justify-center gap-8 lg:justify-start lg:w-full md:w-full lg:mt-5">
+                            <svg role="img" fetchpriority="low" width="30" height="30"
+                                class="fill-current text-[#F7DF1E]" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>JavaScript</title>
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#06B6D4]"
+                                fetchpriority="low" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                            </svg>
+                            <svg role="img" width="30" height="30" class="fill-current text-[#FF2D20]"
+                                fetchpriority="low" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Laravel</title>
+                                <path
+                                    d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z" />
+                            </svg>
+                        </div>
+                        <div class="flex justify-center mt-5 lg:mt-5 lg:justify-end lg:w-1/2">
+                            <div
+                                class="flex bg-dark w-2/6 h-10 rounded-full hover:bg-[#000] justify-center cursor-pointer lg:w-44 md:w-36">
+                                <a href="https://infvckmatika-class.vercel.app/" fetchpriority="low"
+                                    class="flex items-center justify-center text-sm text-white lg:text-normal"
+                                    target="_blank">Visit Site
+                                    <i data-feather="arrow-up-right" class="block text-lg text-secondary lg:ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projects 4 -->
+            <div class="flex md:mx-auto md:flex w-full md:w-[70%] lg:w-[40%] flex-col flex-wrap lg:p-4 p-5 px-4 lg:px-4 mb-10 lg:mb-10 text-center bg-neutral-50 rounded-xl dark:bg-darkSec lg:mt-40"
+                data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
+                <div class="w-full p-0 mt-0 lg:p-4 lg:w-full lg:mt-0 md:mt-0">
+                    <img src="dist/images/projects/ohq.webp" width="700" height="700" fetchpriority="low" alt=""
+                        class=" rounded-xl">
+                </div>
+
+                <div class="lg:flex lg:flex-col lg:p-4">
+                    <div class="flex gap-2 justify-center md:justify-center lg:justify-normal">
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-primary font-acornsemi">
+                            Happiness
+                        </h1>
+                        <h1 class="lg:py-0 pt-2 text-2xl lg:text-3xl font-semibold text-secondary font-acornsemi">
+                            Questionnaire</h1>
+                    </div>
+                    <div class="w-full rounded-full my-2 h-[2px] bg-secondary"></div>
+                    <div class="justify-center lg:flex lg:w-full lg:justify-between">
+                        <div class="flex justify-center gap-8 lg:justify-start lg:w-full md:w-full lg:mt-5">
+                            <svg role="img" fetchpriority="low" width="30" height="30"
+                                class="fill-current text-[#E34F26]" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>HTML5</title>
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                            </svg>
+                            <svg role="img" fetchpriority="low" width="30" height="30"
+                                class="fill-current text-[#1572B6]" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>CSS3</title>
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                            </svg>
+                            <svg role="img" fetchpriority="low" width="30" height="30"
+                                class="fill-current text-[#F7DF1E]" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>JavaScript</title>
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                            </svg>
+                        </div>
+                        <div class="flex justify-center mt-5 lg:mt-5 lg:justify-end lg:w-1/2">
+                            <div
+                                class="flex bg-dark w-2/6 h-10 rounded-full hover:bg-[#000] justify-center cursor-pointer lg:w-44 md:w-36">
+                                <a href="https://ilhanhj.github.io/OHQ/index.html"
+                                    class="flex items-center justify-center text-sm text-white lg:text-normal"
+                                    target="_blank">Visit Site
+                                    <i data-feather="arrow-up-right" class="block text-lg text-secondary lg:ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- The Other Projects Section END -->
+
+
+    <!-- The Contact Section START -->
+    <section id="contact" class="mb-48 pt-36">
+        <div class="container px-4 mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+            <div class="p-10 text-center bg-primary rounded-xl lg:text-left">
+                <img src="dist/images/logo/MINIMALIST-LOGO-1-FILL.png" width="100" height="100" fetchpriority="low"
+                    alt="" class="mx-auto mb-24 lg:mb-28 lg:mx-0" width="90">
+                <p class="mt-5 mb-2 font-acornthin text-dark">Contact me !</p>
+                <h1 class="text-5xl font-acornthin text-dark lg:text-6xl">Let’s create your next big project together
+                </h1>
+                <div class="flex justify-center lg:justify-end">
+                    <div
+                        class="flex justify-center w-2/4 h-10 mt-10 rounded-full cursor-pointer bg-dark hover:bg-black lg:w-48 md:w-40">
+                        <a href="mailto:ilhanzuldan11@gmail.com?subject=Exciting%20Opportunity%20to%20Collaborate"
+                            class="flex items-center justify-center text-sm text-white lg:text-lg" target="_blank">Get
+                            in Touch
+                            <i data-feather="send" class="block ml-2 text-lg text-secondary" width="20"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- The Contact Section END -->
+
+    <!-- Footer START -->
+    <section class="bg-secondary relative z-[200] dark:bg-[#000]">
+        <div class="container p-16 mx-auto lg:p-44 md:mx-auto md:px-4 lg:mx-auto">
+            <div class="flex flex-wrap items-start mx-auto">
+                <div class="container w-2/5 mx-auto mt-5 mb-0 lg:mt-0 lg:w-1/4 lg:text-left md:w-1/4 ">
+                    <h1 class="mb-10 text-lg font-acornsemi text-primary">Say Hello</h1>
+                    <div class="flex my-10 lg:justify-normal">
+                        <i data-feather="mail" class="text-primary" width="25" height="25"></i>
+                        <a href="mailto:ilhanzuldan11@gmail.com?subject=Exciting%20Opportunity%20to%20Collaborate%20on%20Innovative%20Projects&body=Subject%3A%20%F0%9F%9A%80%20Exciting%20Opportunity%20to%20Connect%20and%20Collaborate!%0D%0A%0D%0ABody%3A%0D%0A%0D%0AHey%20%5BDeveloper's%20Name%5D%2C%0D%0A%0D%0AHope%20this%20message%20finds%20you%20awesome!%20%F0%9F%91%8B%20I'm%20%5BYour%20Name%5D%2C%20and%20I%20couldn't%20help%20but%20be%20impressed%20by%20your%20web%20wizardry.%20Your%20work%20caught%20my%20eye%2C%20and%20I%20thought%2C%20%22Hey%2C%20this%20could%20be%20the%20start%20of%20something%20cool!%22%0D%0A%0D%0AI'm%20currently%20onto%20a%20project%20that%20screams%20your%20name.%20It's%20all%20about%20%5Bbrief%20project%20overview%5D%2C%20and%20I%20believe%20your%20knack%20for%20web%20magic%20could%20add%20that%20extra%20sparkle.%0D%0A%0D%0ALet's%20chat%20and%20see%20if%20the%20stars%20align%20for%20some%20cool%20collaboration.%20What%20do%20you%20say%3F%20Got%20a%20moment%20for%20a%20virtual%20coffee%20meetup%20this%20week%3F%0D%0A%0D%0ALooking%20forward%20to%20the%20possibilities!%0D%0A%0D%0ACheers%2C%0D%0A%5BYour%20Full%20Name%5D%0D%0A%5BYour%20Position%5D%0D%0A%5BYour%20Contact%20Information%5D"
+                            class="flex items-center ml-2 text-base text-white hover:text-primary">Email
+                        </a>
+                    </div>
+                    <div class="flex lg:justify-normal">
+                        <i data-feather="instagram" class=" text-primary" width="25" height="25"></i>
+                        <a href="https://www.instagram.com/HANZULDAN"
+                            class="flex items-center ml-2 text-base text-white hover:text-primary">Instagram
+                        </a>
+                    </div>
+                </div>
+                <div class="container w-2/5 mx-auto mt-5 mb-0 lg:mt-0 lg:w-1/4 lg:text-left md:w-1/4 ">
+                    <h1 class="mb-10 text-lg font-acornsemi text-primary">Elsewhere</h1>
+                    <div class="flex lg:justify-normal">
+                        <i data-feather="figma" class="text-primary" width="25" height="25"></i>
+                        <a href="https://www.figma.com/@ilhanzuldan11"
+                            class="flex items-center ml-2 text-base text-white hover:text-primary">Figma
+                        </a>
+                    </div>
+                    <div class="flex my-10 lg:justify-normal">
+                        <i data-feather="github" class=" text-primary" width="25" height="25"></i>
+                        <a href="https://github.com/Ilhanhj"
+                            class="flex items-center ml-2 text-base text-white hover:text-primary">Github
+                        </a>
+                    </div>
+                    <!-- <div class="flex lg:justify-normal">
+                        <i data-feather="youtube" class=" text-primary" width="25" height="25"></i>
+                        <a href="https://www.youtube.com/@ilhanjuldan1428/videos"
+                            class="flex items-center ml-2 text-base text-white hover:text-primary">Youtube
+                        </a>
+                    </div> -->
+                </div>
+                <div class="container order-3 w-1/2 mx-auto mt-5 ml-6 lg:mb-5 lg:mt-0 lg:w-1/4 lg:text-left md:w-1/4">
+                    <h1 class="mb-10 text-lg font-acornsemi text-primary">Menu</h1>
+                    <div class="flex lg:justify-normal">
+                        <a href="#" class="flex items-center text-base text-white hover:text-primary">Home
+                        </a>
+                    </div>
+                    <div class="flex mt-10 lg:justify-normal">
+                        <a href="#about" class="flex items-center text-base text-white hover:text-primary">About
+                        </a>
+                    </div>
+                    <div class="flex mt-10 lg:justify-normal">
+                        <a href="#work" class="flex items-center text-base text-white hover:text-primary">Work
+                        </a>
+                    </div>
+                    <div class="flex mt-10 lg:justify-normal">
+                        <a href="#whatido" class="flex items-center text-base text-white hover:text-primary">Services
+                        </a>
+                    </div>
+                    <div class="flex mt-10 lg:justify-normal">
+                        <a href="#contact" class="flex items-center text-base text-white hover:text-primary">Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-primary rounded-full my-3"></div>
+            <h1 class="text-center text-white font-acornthin"><span>&#169;</span> Ilhan Haffiyan Juldan <span
+                    class="">2023</span>
+            </h1>
+        </div>
+    </section>
+    <!-- Footer END -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+        gsap.from('#navnav', { y: -100, opacity: 0, duration: 2, ease: "circ.inOut" });
+        gsap.from('.self-center', { x: -100, opacity: 0, duration: 2, ease: "circ.inOut" });
+        gsap.from('.w-md', { x: 100, opacity: 0, duration: 2, ease: "circ.inOut" });
+        gsap.from('#chatbot-button', { y: 200, opacity: 0, duration: 2.5, ease: "bounce.inOut" });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
